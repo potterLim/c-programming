@@ -21,8 +21,8 @@ int main(void)
         "Age: 20",
         "Height: 172.5 cm (1.73 m)",
         "Weight: 65.0 kg",
-        "BMI: 21.88",
-        "Health Score: 86.18",
+        "BMI: 21.84",
+        "Health Score: 85.77",
         "Rounded Health Score: 86"
     };
 
@@ -81,6 +81,8 @@ int main(void)
         fprintf(stderr, "[반올림 오류] g_rounded_health_score: %d | 기대값: %d\n", g_rounded_health_score, expected_rounded);
         assert(0);
     }
+
+    printf("\n✅ 모든 테스트를 통과했습니다.\n");
 
     return 0;
 }
