@@ -56,8 +56,8 @@ Name: potterLim
 Age: 20
 Height: 172.5 cm (1.73 m)
 Weight: 65.0 kg
-BMI: 21.88
-Health Score: 86.18
+BMI: 21.84
+Health Score: 85.77
 Rounded Health Score: 86
 ```
 
@@ -102,9 +102,7 @@ gcc -o lab01_submit.exe main_submit.c lab01.c
 ./lab01_submit.exe
 ```
 
-- 내부적으로 `assert()`를 통해 값과 출력이 정확한지 검사합니다.
-- `./lab01_submit.exe` 실행 시 오류 없이 통과되어야 합니다.
-
+> `✅ 모든 테스트를 통과했습니다.` 메시지가 출력되어야 합니다.
 
 ## 🧭 마무리 안내
 
