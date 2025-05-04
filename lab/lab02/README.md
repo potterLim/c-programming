@@ -69,7 +69,7 @@ int count_divisors(int number)
 
 ## ⚙️ 빌드 및 실행 방법
 
-### 1. 자동 채점 실행
+### 자동 채점 실행
 
 ```bash
 gcc -o lab02_test.exe lab02.c main.c
