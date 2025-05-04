@@ -29,7 +29,6 @@
 | ~~13~~   | ~~동적 메모리 할당~~               | ~~[13-dynamic-memory-allocation.md](notes/13-dynamic-memory-allocation.md)~~                     | ~~[13.c](example-codes/13.c)~~               |
 | ~~14~~   | ~~파일 입출력~~                    | ~~[14-file-io.md](notes/14-file-io.md)~~                                                         | ~~[14.c](example-codes/14.c)~~               |
 | ~~15~~   | ~~비트 연산자~~                    | ~~[15-bitwise-operators.md](notes/15-bitwise-operators.md)~~                                     | ~~[15.c](example-codes/15.c)~~               |
-            |
 
 ## 실습
 
