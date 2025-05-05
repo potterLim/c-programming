@@ -21,7 +21,7 @@
 | 05   | 조건문                         | [05-conditional-statements.md](notes/05-conditional-statements.md)                               | [05.c](example-codes/05.c)                   |
 | 06   | 반복문                         | [06-loops.md](notes/06-loops.md)                                                                 | [06.c](example-codes/06.c)                   |
 | 07   | 함수와 전처리 지시문    | [07-functions-and-preprocessor.md](notes/07-functions-and-preprocessor.md) | [./07](example-codes/07)               |
-| ~~08~~   | ~~재귀 함수와 응용~~               | ~~[08-recursion-and-applications.md](notes/08-recursion-and-applications.md)~~                   | ~~[08.c](example-codes/08.c)~~               |
+| 08   | 재귀 함수와 응용               | [08-recursion-and-applications.md](notes/08-recursion-and-applications.md)                   | [./08](example-codes/08)               |
 | ~~09~~   | ~~포인터~~                         | ~~[09-pointers.md](notes/09-pointers.md)~~                                                       | ~~[09.c](example-codes/09.c)~~               |
 | ~~10~~   | ~~배열과 다차원 배열~~             | ~~[10-arrays-and-multidimensional.md](notes/10-arrays-and-multidimensional.md)~~                 | ~~[10.c](example-codes/10.c)~~               |
 | ~~11~~   | ~~문자열~~                         | ~~[11-strings.md](notes/11-strings.md)~~                                                         | ~~[11.c](example-codes/11.c)~~               |
@@ -37,8 +37,9 @@
 
 | 실습 번호 | 포함된 주제 |       실습 제목       |     과제 경로      |
 |-----------|-------------|-----------------------|--------------------|
-|   Lab 01  |   02 ~ 03   | 정밀 건강 점수 계산기 | [lab01](lab/lab01) |
-|   Lab 02  |   04 ~ 06   | 약수 분석기           | [lab02](lab/lab02) |
+|     01    |   02 ~ 03   | 정밀 건강 점수 계산기 | [lab01](lab/lab01) |
+|     02    |   04 ~ 06   | 약수 분석기           | [lab02](lab/lab02) |
+|     03    |   07 ~ 08   | 숫자 분석기           | [lab03](lab/lab03) |
 
 
 모든 실습은 이전 실습에서 다룬 내용을 포함합니다.  
