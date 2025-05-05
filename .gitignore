@@ -1,0 +1,23 @@
+# C compiler outputs
+*.exe
+*.out
+*.o
+*.obj
+
+# Backup & temp files
+*~
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# VS Code settings (if applicable)
+.vscode/
+
+# All script files
+*.ps1
+*.sh
+*.bat
+*.cmd
+*.py
