@@ -20,7 +20,7 @@
 | 04   | 연산자                         | [04-operators.md](notes/04-operators.md)                                                         | [04.c](example-codes/04.c)                   |
 | 05   | 조건문                         | [05-conditional-statements.md](notes/05-conditional-statements.md)                               | [05.c](example-codes/05.c)                   |
 | 06   | 반복문                         | [06-loops.md](notes/06-loops.md)                                                                 | [06.c](example-codes/06.c)                   |
-| ~~07~~   | ~~함수, 모듈화, 전처리 지시문~~    | ~~[07-functions-modularization-preprocessor.md](notes/07-functions-modularization-preprocessor.md)~~ | ~~[07.c](example-codes/07.c)~~               |
+| 07   | 함수와 전처리 지시문    | [07-functions-and-preprocessor.md](notes/07-functions-and-preprocessor.md) | [./07](example-codes/07)               |
 | ~~08~~   | ~~재귀 함수와 응용~~               | ~~[08-recursion-and-applications.md](notes/08-recursion-and-applications.md)~~                   | ~~[08.c](example-codes/08.c)~~               |
 | ~~09~~   | ~~포인터~~                         | ~~[09-pointers.md](notes/09-pointers.md)~~                                                       | ~~[09.c](example-codes/09.c)~~               |
 | ~~10~~   | ~~배열과 다차원 배열~~             | ~~[10-arrays-and-multidimensional.md](notes/10-arrays-and-multidimensional.md)~~                 | ~~[10.c](example-codes/10.c)~~               |
