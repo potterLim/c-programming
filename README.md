@@ -22,8 +22,8 @@
 | 06   | 반복문                         | [06-loops.md](notes/06-loops.md)                                                                 | [06.c](example-codes/06.c)                   |
 | 07   | 함수와 전처리 지시문    | [07-functions-and-preprocessor.md](notes/07-functions-and-preprocessor.md) | [./07](example-codes/07)               |
 | 08   | 재귀 함수와 응용               | [08-recursion-and-applications.md](notes/08-recursion-and-applications.md)                   | [./08](example-codes/08)               |
-| ~~09~~   | ~~포인터~~                         | ~~[09-pointers.md](notes/09-pointers.md)~~                                                       | ~~[09.c](example-codes/09.c)~~               |
-| ~~10~~   | ~~배열과 다차원 배열~~             | ~~[10-arrays-and-multidimensional.md](notes/10-arrays-and-multidimensional.md)~~                 | ~~[10.c](example-codes/10.c)~~               |
+| 09   | 배열과 다차원 배열                         | [09-arrays-and-multidimensional.md](notes/09-arrays-and-multidimensional.md)                                                       | [./09](example-codes/09)               |
+| ~~10~~   | ~~포인터~~             | ~~[10-pointers.md](notes/10-pointers.md)~~                 | ~~[10.c](example-codes/10.c)~~               |
 | ~~11~~   | ~~문자열~~                         | ~~[11-strings.md](notes/11-strings.md)~~                                                         | ~~[11.c](example-codes/11.c)~~               |
 | ~~12~~   | ~~구조체, 공용체, typedef~~        | ~~[12-struct-union-typedef.md](notes/12-struct-union-typedef.md)~~                               | ~~[12.c](example-codes/12.c)~~               |
 | ~~13~~   | ~~동적 메모리 할당~~               | ~~[13-dynamic-memory-allocation.md](notes/13-dynamic-memory-allocation.md)~~                     | ~~[13.c](example-codes/13.c)~~               |
