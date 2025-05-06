@@ -25,8 +25,8 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 | 07     | 함수와 전처리 지시문        | [07-functions-and-preprocessor](notes/07-functions-and-preprocessor.md)         | [./07](example-codes/07)       |
 | 08     | 재귀 함수와 응용            | [08-recursion-and-applications](notes/08-recursion-and-applications.md)         | [./08](example-codes/08)       |
 | 09     | 배열과 다차원 배열          | [09-arrays-and-multidimensional](notes/09-arrays-and-multidimensional.md)       | [./09](example-codes/09)       |
-| ~~10~~ | ~~포인터~~                  | ~~[10-pointers](notes/10-pointers.md)~~                                         | ~~[10.c](example-codes/10.c)~~ |
-| ~~11~~ | ~~문자열~~                  | ~~[11-strings](notes/11-strings.md)~~                                           | ~~[11.c](example-codes/11.c)~~ |
+| 10     | 포인터                      | [10-pointers](notes/10-pointers.md)                                             | [./10](example-codes/10.c)     |
+| 11     | 문자열                      | [11-strings](notes/11-strings.md)                                               | [11.c](example-codes/11)       |
 | ~~12~~ | ~~구조체, 공용체, typedef~~ | ~~[12-struct-union-typedef](notes/12-struct-union-typedef.md)~~                 | ~~[12.c](example-codes/12.c)~~ |
 | ~~13~~ | ~~동적 메모리 할당~~        | ~~[13-dynamic-memory-allocation](notes/13-dynamic-memory-allocation.md)~~       | ~~[13.c](example-codes/13.c)~~ |
 | ~~14~~ | ~~파일 입출력~~             | ~~[14-file-io](notes/14-file-io.md)~~                                           | ~~[14.c](example-codes/14.c)~~ |
@@ -43,6 +43,7 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 |     02    |   04 ~ 06   | 약수 분석기           | [lab02](lab/lab02) |
 |     03    |   07 ~ 08   | 숫자 분석기           | [lab03](lab/lab03) |
 |     04    |     09      | 배열 유틸리티         | [lab04](lab/lab04) |
+|     05    |   10 ~ 11   | 문자열 검사기         | [lab05](lab/lab05) |
 
 
 모든 실습은 이전 실습에서 다룬 내용을 포함합니다.  
@@ -67,4 +68,4 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 이 저장소를 통해 공부하시다가 내용, 실습, 설명 등에 대해 궁금한 점이 생기면
 언제든지 potterLim0808@gmail.com 으로 문의 주시면 성실히 답변드리겠습니다.
 
-> 최종 수정일: 2025-05-05
+> 최종 수정일: 2025-05-06
