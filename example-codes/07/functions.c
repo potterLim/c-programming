@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mymath.h"
+#include "functions.h"
 
 // Function definitions
 int add(int a, int b)

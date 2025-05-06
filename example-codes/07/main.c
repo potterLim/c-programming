@@ -4,7 +4,7 @@
 */
 
 #include <stdio.h>
-#include "mymath.h"
+#include "functions.h"
 
 int main(void)
 {

@@ -1,5 +1,5 @@
-#ifndef MYMATH_H
-#define MYMATH_H
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
 
 // Function prototypes
 int add(int a, int b);
@@ -10,4 +10,4 @@ void print_sum(int a, int b);
 void print_difference(int a, int b);
 void modify(int value);  // Shows that parameters are passed by value
 
-#endif  /* MYMATH_H */
+#endif  /* FUNCTIONS_H */
