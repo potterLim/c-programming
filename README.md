@@ -28,7 +28,7 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 | 10     | 포인터                      | [10-pointers](notes/10-pointers.md)                                             | [./10](example-codes/10)       |
 | 11     | 문자열                      | [11-strings](notes/11-strings.md)                                               | [11.c](example-codes/11.c)     |
 | 12     | 구조체와 typedef            | [12-struct-typedef](notes/12-struct-typedef.md)                                 | [./12](example-codes/12)       |
-| ~~13~~ | ~~동적 메모리 할당~~        | ~~[13-dynamic-memory-allocation](notes/13-dynamic-memory-allocation.md)~~       | ~~[13.c](example-codes/13.c)~~ |
+| 13     | 동적 메모리 할당            | [13-dynamic-memory-allocation](notes/13-dynamic-memory-allocation.md)           | [./13](example-codes/13)       |
 | ~~14~~ | ~~파일 입출력~~             | ~~[14-file-io](notes/14-file-io.md)~~                                           | ~~[14.c](example-codes/14.c)~~ |
 | ~~15~~ | ~~비트 연산자~~             | ~~[15-bitwise-operators](notes/15-bitwise-operators.md)~~                       | ~~[15.c](example-codes/15.c)~~ |
 
@@ -68,4 +68,4 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 이 저장소를 통해 공부하시다가 내용, 실습, 설명 등에 대해 궁금한 점이 생기면
 언제든지 potterLim0808@gmail.com 으로 문의 주시면 성실히 답변드리겠습니다.
 
-> 최종 수정일: 2025-05-06
+> 최종 수정일: 2025-05-08
