@@ -56,7 +56,8 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 
 | 점검 이름         | 포함된 주제 | 경로                                                       |
 |-------------------|-------------|------------------------------------------------------------|
-| Midway Checkpoint | 01 ~ 08     | [midway-checkpoint.md](./checkpoint/midway-checkpoint.md) |
+| Midway Checkpoint | 01 ~ 08     | [midway-checkpoint.md](./checkpoint/midway-checkpoint.md)  |
+| Final Checkpoint  | 09 ~ 15     | [final-checkpoint.md](./checkpoint/final-checkpoint.md)    |
 
 ## 부정확한 내용에 대한 기여
 
