@@ -29,7 +29,7 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 | 11     | 문자열                      | [11-strings](notes/11-strings.md)                                               | [11.c](example-codes/11.c)     |
 | 12     | 구조체와 typedef            | [12-struct-typedef](notes/12-struct-typedef.md)                                 | [./12](example-codes/12)       |
 | 13     | 동적 메모리 할당            | [13-dynamic-memory-allocation](notes/13-dynamic-memory-allocation.md)           | [./13](example-codes/13)       |
-| ~~14~~ | ~~파일 입출력~~             | ~~[14-file-io](notes/14-file-io.md)~~                                           | ~~[14.c](example-codes/14.c)~~ |
+| 14     | 파일 입출력                 | [14-file-io](notes/14-file-io.md)                                               | [./](example-codes/14)         |
 | ~~15~~ | ~~비트 연산자~~             | ~~[15-bitwise-operators](notes/15-bitwise-operators.md)~~                       | ~~[15.c](example-codes/15.c)~~ |
 
 ## 실습(Lab)
