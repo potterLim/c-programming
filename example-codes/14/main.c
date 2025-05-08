@@ -1,3 +1,8 @@
+/*
+ * Example code for: 14-File I/O
+ * Purpose         : Loads product list, computes total values, and writes an inventory report
+ */
+
 #include <stdio.h>
 #include "inventory.h"
 

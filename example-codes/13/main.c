@@ -1,3 +1,8 @@
+/*
+ * Example code for: 13-Dynamic Memory Allocation
+ * Purpose         : Interacts with user input to create, store, and print student data using dynamic memory
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
