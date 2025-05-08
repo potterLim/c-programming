@@ -1,0 +1,35 @@
+[Word Statistics Report]
+
+1. Total number of words: 60
+
+3. Alphabet frequency:
+a: 21
+b: 2
+c: 1
+d: 2
+e: 24
+f: 10
+g: 9
+h: 14
+i: 13
+j: 0
+k: 2
+l: 9
+m: 4
+n: 17
+o: 21
+p: 5
+q: 0
+r: 9
+s: 12
+t: 22
+u: 5
+v: 1
+w: 7
+x: 0
+y: 6
+z: 0
+
+4. Number of lines: 5
+
+5. Average word length: 3.60
