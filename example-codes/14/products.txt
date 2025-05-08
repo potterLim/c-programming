@@ -1,0 +1,4 @@
+Keyboard 49.99 12
+Mouse 19.50 34
+Monitor 199.99 7
+Cable 4.75 100
