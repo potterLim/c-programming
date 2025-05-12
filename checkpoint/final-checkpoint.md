@@ -96,13 +96,33 @@ int arr[5] = {10, 20, 30, 40, 50};
 
 ## 문제 11.
 
-정수 두 개의 값을 포인터를 이용하여 바꾸는 함수를 구현하시오.
 ```c
-void swap(int* a, int* b)
-{
+#include <stdio.h>
 
+void swap(int num1, int num2)
+{
+    int tmp = num1;
+    num1 = num2;
+    num2 = tmp;
 }
+
+int main(void)
+{
+    int num1 = 5;
+    int num2 = 10;
+
+    swap(num1, num2);
+
+    printf("num1: %d\n", num1);
+    printf("num2: %d\n", num2);
+
+    return 0;
+}
+
 ```
+
+1. 위 코드를 실행했을 때 출력되는 값을 작성하시오.  
+2. 위 코드에 오류가 있다면 수정하고, 없다면 그대로 두시오.
 
 ## 문제 12.
 
