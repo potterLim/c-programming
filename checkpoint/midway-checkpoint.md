@@ -55,7 +55,10 @@ int main(void)
 ## 문제 5.
 
 ```c
-// int sum_of_digits_resursive(int n);
+int sum_of_digits_resursive(int n)
+{
+
+}
 ```
 
 - 양의 정수 n의 각 자리 숫자를 재귀적으로 더하여 반환하는 함수를 구현하시오.  
@@ -85,7 +88,10 @@ switch (grade) {
 ## 문제 7.
 
 ```c
-// int classify_number(int x);
+int classify_number(int x)
+{
+    
+}
 ```
 
 정수 x가  
