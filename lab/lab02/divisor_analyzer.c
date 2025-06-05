@@ -1,4 +1,4 @@
-#include "lab02.h"
+#include "divisor_analyzer.h"
 
 int is_prime(int number)
 {
