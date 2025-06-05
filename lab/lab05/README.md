@@ -72,8 +72,8 @@ int is_valid_password(const char* str);
 ## ⚙️ 빌드 및 실행 방법
 
 ```bash
-gcc -o lab05_test.exe string_util.c main.c
-./lab05_test.exe
+gcc -o lab05.exe string_util.c main.c
+./lab05.exe
 ```
 
 > `✅ 모든 테스트를 통과했습니다.` 메시지가 출력되어야 합니다.
