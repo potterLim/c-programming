@@ -1,5 +1,5 @@
-#ifndef LAB01_H
-#define LAB01_H
+#ifndef HEALTH_SCORE_H
+#define HEALTH_SCORE_H
 
 extern const int CURRENT_YEAR;
 
@@ -14,4 +14,4 @@ extern int g_rounded_health_score;
 void solve_lab01(void);
 const char* get_output_line(const int index);
 
-#endif /* LAB01_H */
+#endif /* HEALTH_SCORE_H */
