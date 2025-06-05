@@ -80,8 +80,8 @@ int remove_at(int arr[], int count, int index);
 ## ⚙️ 빌드 및 실행 방법
 
 ```bash
-gcc -o lab04_test.exe array.c main.c
-./lab04_test.exe
+gcc -o lab04.exe array.c main.c
+./lab04.exe
 ```
 
 > `✅ 모든 테스트를 통과했습니다.` 메시지가 출력되어야 합니다.
