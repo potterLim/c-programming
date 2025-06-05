@@ -1,7 +1,7 @@
 #include <assert.h>
 #include <stdio.h>
 
-#include "lab02.h"
+#include "divisor_analyzer.h"
 
 void test_int(const char* name, int actual, int expected)
 {
