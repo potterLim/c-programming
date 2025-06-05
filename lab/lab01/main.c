@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "lab01.h"
+#include "health_score.h"
 
 int main(void)
 {
