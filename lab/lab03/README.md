@@ -53,8 +53,8 @@ int count_odd_digits_recursive(int n);
 ## ⚙️ 빌드 및 실행 방법
 
 ```bash
-gcc -o lab03_test.exe digit_analysis.c main.c
-./lab03_test.exe
+gcc -o lab03.exe digit_analysis.c main.c
+./lab03.exe
 ```
 
 > `✅ 모든 테스트를 통과했습니다.` 메시지가 출력되어야 합니다.
