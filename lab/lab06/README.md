@@ -38,8 +38,8 @@ int find_student_by_name(const student_t* students, int count, const char* name)
 ## ⚙️ 빌드 및 실행 방법
 
 ```bash
-gcc -o lab06_test.exe student.c main.c
-./lab06_test.exe
+gcc -o lab06.exe student.c main.c
+./lab06.exe
 ```
 
 `✅ 모든 테스트를 통과했습니다.` 메시지가 출력되어야 합니다.
