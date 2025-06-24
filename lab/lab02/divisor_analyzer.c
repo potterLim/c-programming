@@ -3,7 +3,9 @@
 int is_prime(int number)
 {
     /*
-    * number가 소수이면 return 1을 소수가 아니면 return 0을 리턴하는 코드를 작성하세요.
+    * number가 소수이면 제일 마지막 줄에 return 1을,
+    * number가 소수가 아니면 제일 마지막 줄에 return 0을 
+    * 작성하는 코드를 작성하세요.
     */
 }
 
