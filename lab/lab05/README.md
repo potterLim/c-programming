@@ -61,13 +61,13 @@ int is_valid_password(const char* str);
 - `count_lowercase`: 소문자의 개수를 반환
 - `count_digits`: 숫자의 개수를 반환
 - `count_spaces`: 공백(스페이스)의 개수를 반환
-- `count_special_characters`: 알파벳/숫자/공백을 제외한 문자 개수를 반환
+- `count_special_characters`: 알파벳/숫자/공백(' ')을 제외한 문자 개수를 반환
 - `is_valid_password`: 다음 조건을 모두 만족하면 `TRUE(1)`, 아니면 `FALSE(0)`을 반환
   - 길이가 8자 이상
   - 대문자 1개 이상
   - 소문자 1개 이상
   - 숫자 1개 이상
-  - 특수문자 1개 이상(공백은 특수문자로 간주하지 않는다.)
+  - 특수문자 1개 이상(공백(' ')은 특수문자로 간주하지 않는다.)
 
 ## ⚙️ 빌드 및 실행 방법
 
