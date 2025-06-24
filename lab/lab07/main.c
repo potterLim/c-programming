@@ -13,16 +13,17 @@ const char* expected[] = {
     "\n",
     "1. Total number of words: 60\n",
     "\n",
+    "2. Number of lines: 5\n",
+    "\n",
     "3. Alphabet frequency:\n",
     "a: 21\n", "b: 2\n", "c: 1\n", "d: 2\n", "e: 24\n", "f: 10\n", "g: 9\n", "h: 14\n",
     "i: 13\n", "j: 0\n", "k: 2\n", "l: 9\n", "m: 4\n", "n: 17\n", "o: 21\n",
     "p: 5\n", "q: 0\n", "r: 9\n", "s: 12\n", "t: 22\n", "u: 5\n", "v: 1\n",
     "w: 7\n", "x: 0\n", "y: 6\n", "z: 0\n",
     "\n",
-    "4. Number of lines: 5\n",
-    "\n",
-    "5. Average word length: 3.60\n"
+    "4. Average word length: 3.60\n"
 };
+
 
 const int expected_lines = sizeof(expected) / sizeof(expected[0]);
 
