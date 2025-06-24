@@ -2,6 +2,8 @@
 
 1. Total number of words: 60
 
+2. Number of lines: 5
+
 3. Alphabet frequency:
 a: 21
 b: 2
@@ -30,6 +32,4 @@ x: 0
 y: 6
 z: 0
 
-4. Number of lines: 5
-
-5. Average word length: 3.60
+4. Average word length: 3.60
