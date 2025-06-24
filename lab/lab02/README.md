@@ -30,12 +30,13 @@
 ## 🧩 구현할 함수
 
 ```c
-int is_prime(int number);
-int count_divisors(int number);
-int sum_divisors(int number);
-int count_odd_divisors(int number);
-int count_even_divisors(int number);
-int count_prime_divisors(int number);
+int is_prime(int number);              // number가 소수인지 아닌지 판별한다.
+int count_divisors(int number);        // number의 약수 개수를 센다.
+int sum_divisors(int number);          // number의 모든 약수를 더한다.
+int count_odd_divisors(int number);    // number의 약수 중에서 홀수인 것의 개수를 센다.
+int count_even_divisors(int number);   // number의 약수 중에서 짝수인 것의 개수를 센다.
+int count_prime_divisors(int number);  // number의 약수 중에서 소수인 것의 개수를 센다.
+
 ```
 
 > 위 함수들은 각각 어떤 정수에 대해 계산을 수행합니다. 이때 사용하는 `number`라는 이름의 값이 바로 그 정수입니다.  
@@ -56,8 +57,8 @@ int count_divisors(int number)
 }
 ```
 
-- `int count = 0;` 과 `return count;`는 수정하지 마세요.  
-- `count` 변수에 원하는 값을 저장한 뒤, 그대로 반환되도록 하면 됩니다.
+- `int count = 0;`/`int sum = 0;` 과 `return count;`/`return sum`는 수정하지 마세요.  
+- `count`/`sum` 변수에 원하는 값을 저장한 뒤, 그대로 반환되도록 하면 됩니다.
 
 
 ## 🔢 고정값
