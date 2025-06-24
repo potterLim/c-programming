@@ -22,12 +22,14 @@
 ## 🔧 구현할 함수 목록
 
 ```c
-student_t* create_students_malloc(int count);
+student_t* create_students_malloc(int count); // count개의 student_t 구조체 배열을 동적 할당하고 그 포인터를 반환합니다.
 int count_high_gpa(const student_t* students, int count, double threshold);
 int count_name_starts_with(const student_t* students, int count, char ch);
 int find_oldest_student_index(const student_t* students, int count);
 int find_student_by_name(const student_t* students, int count, const char* name);
 ```
+
+> 유효하지 않거나 예측할 수 없는 매개변수가 전달된 경우 함수는 -1을 반환해야 합니다.
 
 ## 📌 구현 조건
 
