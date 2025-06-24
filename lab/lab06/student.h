@@ -7,7 +7,7 @@ typedef struct student {
     double gpa;
 } student_t;
 
-student_t* create_students_malloc(int count);
+student_t* create_students_malloc(int count); // count개의 student_t 구조체 배열을 동적 할당하고 그 포인터를 반환합니다.
 
 int count_high_gpa(const student_t* students, int count, double threshold);
 int count_name_starts_with(const student_t* students, int count, char ch);
