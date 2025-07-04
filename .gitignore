@@ -21,3 +21,7 @@ Thumbs.db
 *.bat
 *.cmd
 *.py
+
+# Presentation files
+*.ppt
+*.pptx
