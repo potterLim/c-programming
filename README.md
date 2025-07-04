@@ -9,27 +9,38 @@
 이 노트는 어디까지나 핵심 문법과 개념을 빠르게 정리한 것이므로 이 저장소를 통해 공부하고 난 뒤에라도  
 _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 강력히 추천합니다.
 
+## 개발 환경 구축
+
+C 언어를 학습하고 실습 예제를 실행하려면 코드를 작성하고 컴파일할 수 있는 개발 환경이 필요합니다.  
+이 저장소에서는 Windows 사용자 기준으로 Visual Studio Code와 gcc를 이용한 개발 환경 설정을 권장합니다.
+
+설치 방법과 테스트 컴파일까지의 과정을 자세히 설명한 [개발 환경 구축 가이드(pdf)](./setup-guide/c_programming_setup_guide.pdf)를 통해  
+Visual Studio Code에서 `.c` 파일을 바로 작성하고 컴파일, 실행할 수 있는 환경을 손쉽게 구축할 수 있습니다.
+
+> macOS 또는 Linux 환경에서도 동일한 실습이 가능하며 해당 운영체제를 위한 개발 환경 구축 가이드는 추후 제공될 예정입니다.
+
 ## 목차 및 노트
 
 각 장별 학습 노트는 [`notes/`](./notes) 디렉토리에, 예제 코드는 [`example-codes/`](./example-codes) 디렉토리에 정리되어 있으며, 다음과 같은 주제를 다룹니다:
 
-| 번호 | 주제                 | 노트                                                                            | 예제 코드                  |
-|------|----------------------|---------------------------------------------------------------------------------|----------------------------|
-| 01   | 프로그램의 시작      | [01-started-with-programming](notes/01-started-with-programming.md)             | [01.c](example-codes/01.c) |
-| 02   | 변수와 상수          | [02-variables-and-constants](notes/02-variables-and-constants.md)               | [02.c](example-codes/02.c) |
-| 03   | 자료형과 형 변환     | [03-data-types-and-type-conversion](notes/03-data-types-and-type-conversion.md) | [03.c](example-codes/03.c) |
-| 04   | 연산자               | [04-operators](notes/04-operators.md)                                           | [04.c](example-codes/04.c) |
-| 05   | 조건문               | [05-conditional-statements](notes/05-conditional-statements.md)                 | [05.c](example-codes/05.c) |
-| 06   | 반복문               | [06-loops](notes/06-loops.md)                                                   | [06.c](example-codes/06.c) |
-| 07   | 함수와 전처리 지시문 | [07-functions-and-preprocessor](notes/07-functions-and-preprocessor.md)         | [./07](example-codes/07)   |
-| 08   | 재귀 함수와 응용     | [08-recursion-and-applications](notes/08-recursion-and-applications.md)         | [./08](example-codes/08)   |
-| 09   | 배열과 다차원 배열   | [09-arrays-and-multidimensional](notes/09-arrays-and-multidimensional.md)       | [./09](example-codes/09)   |
-| 10   | 포인터               | [10-pointers](notes/10-pointers.md)                                             | [./10](example-codes/10)   |
-| 11   | 문자열               | [11-strings](notes/11-strings.md)                                               | [11.c](example-codes/11.c) |
-| 12   | 구조체와 typedef     | [12-struct-typedef](notes/12-struct-typedef.md)                                 | [./12](example-codes/12)   |
-| 13   | 동적 메모리 할당     | [13-dynamic-memory-allocation](notes/13-dynamic-memory-allocation.md)           | [./13](example-codes/13)   |
-| 14   | 파일 입출력          | [14-file-io](notes/14-file-io.md)                                               | [./14](example-codes/14)   |
-| 15   | 비트 연산자          | [15-bitwise-operators](notes/15-bitwise-operators.md)                           | [15.c](example-codes/15.c) |
+| 번호 | 주제                        | 노트                                                                            | 예제 코드                  |
+| ---- | --------------------------- | ------------------------------------------------------------------------------- | -------------------------- |
+| 01   | 프로그램의 시작             | [01-started-with-programming](notes/01-started-with-programming.md)             | [01.c](example-codes/01.c) |
+| 02   | 변수와 상수                 | [02-variables-and-constants](notes/02-variables-and-constants.md)               | [02.c](example-codes/02.c) |
+| 03   | 자료형과 형 변환            | [03-data-types-and-type-conversion](notes/03-data-types-and-type-conversion.md) | [03.c](example-codes/03.c) |
+| 04   | 연산자                      | [04-operators](notes/04-operators.md)                                           | [04.c](example-codes/04.c) |
+| 05   | 조건문                      | [05-conditional-statements](notes/05-conditional-statements.md)                 | [05.c](example-codes/05.c) |
+| 06   | 반복문                      | [06-loops](notes/06-loops.md)                                                   | [06.c](example-codes/06.c) |
+| 07   | 함수와 전처리 지시문        | [07-functions-and-preprocessor](notes/07-functions-and-preprocessor.md)         | [./07](example-codes/07)   |
+| 08   | 재귀 함수와 응용            | [08-recursion-and-applications](notes/08-recursion-and-applications.md)         | [./08](example-codes/08)   |
+| 09   | 배열과 다차원 배열          | [09-arrays-and-multidimensional](notes/09-arrays-and-multidimensional.md)       | [./09](example-codes/09)   |
+| 10   | 포인터                      | [10-pointers](notes/10-pointers.md)                                             | [./10](example-codes/10)   |
+| 11   | 문자열                      | [11-strings](notes/11-strings.md)                                               | [11.c](example-codes/11.c) |
+| 12   | 구조체와 typedef            | [12-struct-typedef](notes/12-struct-typedef.md)                                 | [./12](example-codes/12)   |
+| 13   | 동적 메모리 할당            | [13-dynamic-memory-allocation](notes/13-dynamic-memory-allocation.md)           | [./13](example-codes/13)   |
+| 14   | 파일 입출력                 | [14-file-io](notes/14-file-io.md)                                               | [./14](example-codes/14)   |
+| 15   | 컴퓨터에서의 수 체계와 표현 | [15-number-systems-in-computers](notes/15-number-systems-in-computers.md)       | [15.c](example-codes/15.c) |
+| 16   | 비트 연산자                 | [16-bitwise-operators](notes/16-bitwise-operators.md)                           | [16.c](example-codes/16.c) |
 
 ## 실습(Lab)
 
