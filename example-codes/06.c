@@ -11,7 +11,7 @@ int main(void)
     // while loop: repeat until correct password entered
     int password = 1234;
     while (input != password) {
-        printf("Enter password: ");
+        printf("Enter password (correct: 1234): ");
         scanf("%d", &input);
     }
     printf("Access granted!\n");
