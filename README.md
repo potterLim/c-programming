@@ -24,7 +24,7 @@ Visual Studio Code에서 `.c` 파일을 바로 작성하고 컴파일, 실행할
 각 장별 학습 노트는 [`notes/`](./notes) 디렉토리에, 예제 코드는 [`example-codes/`](./example-codes) 디렉토리에 정리되어 있으며, 다음과 같은 주제를 다룹니다:
 
 | 번호 | 주제                 | 노트                                                                            | 예제 코드                  |
-| :--: | :-------------------:| :-----------------------------------------------------------------------------: | :------------------------: |
+| :--: | :-------------------:| ------------------------------------------------------------------------------- | :------------------------: |
 | 01   | 프로그램의 시작      | [01-started-with-programming](notes/01-started-with-programming.md)             | [01.c](example-codes/01.c) |
 | 02   | 변수와 상수          | [02-variables-and-constants](notes/02-variables-and-constants.md)               | [02.c](example-codes/02.c) |
 | 03   | 자료형과 형 변환     | [03-data-types-and-type-conversion](notes/03-data-types-and-type-conversion.md) | [03.c](example-codes/03.c) |
