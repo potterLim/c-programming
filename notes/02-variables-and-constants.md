@@ -136,3 +136,11 @@ scanf("%f", &height);
         const int MAX_RETRY = 3;  
         #define DEFAULT_PORT (8080)
         ```
+
+## 정리
+
+* 변수는 메모리 공간에 이름을 붙인 것이고, 선언 후 값을 저장하거나 바꿀 수 있다.
+* 기본 자료형으로는 `int`, `float`, `double`, `char` 등이 있다.
+* `printf`와 `scanf`로 출력과 입력을 하며, `scanf`에는 변수 주소(`&`)가 필요하다.
+* 상수는 `const`나 `#define`으로 선언하며, 한 번 정한 값을 변경할 수 없다.
+* 변수는 소문자 `snake_case`, 상수는 대문자와 괄호 사용 컨벤션을 지킨다.
