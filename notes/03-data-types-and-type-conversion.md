@@ -1,5 +1,5 @@
-## 3. 자료형과 형 변환
-### 출력 서식자 (Format Specifiers)
+# 3. 자료형과 형 변환
+## 출력 서식자 (Format Specifiers)
 
 앞에서 `printf()`를 이용해 값을 출력한 적이 있다.  
 이때 사용하는 `%d`, `%f` 같은 기호를 서식자(format specifier)라고 한다.  
@@ -26,23 +26,23 @@ printf("%.2f\n", pi);   // 3.14
 서식자를 잘못 쓰면 경고가 뜨거나 엉뚱한 값이 출력될 수 있으니 꼭 자료형에 맞게 써야 한다.
 
 
-### 자료형의 종류
+## 자료형의 종류
 
 C언어에서 대표적으로 자주 쓰이는 자료형은 앞서 소개했다. 이제는 C언어의 모든 기본 자료형을 전체적으로 정리해 보자.
 
-#### 정수형 (Integer Types)
+### 정수형 (Integer Types)
 
-| 자료형 | 부호 가능 여부 | 설명 |
-|--------|----------------|------|
-| `char` | ✅ signed / unsigned | 문자, 작은 정수 |
-| `short` / `short int` | ✅ signed / unsigned | 작은 정수 |
-| `int` | ✅ signed / unsigned | 기본 정수형 |
-| `long` / `long int` | ✅ signed / unsigned | 큰 정수 |
-| `long long` / `long long int` | ✅ signed / unsigned | 더 큰 정수 |
+| 자료형                        | 부호 가능 여부        | 설명            |
+| ----------------------------- | --------------------- | --------------- |
+| `char`                        | ✅ signed / unsigned | 문자, 작은 정수 |
+| `short` / `short int`         | ✅ signed / unsigned | 작은 정수       |
+| `int`                         | ✅ signed / unsigned | 기본 정수형     |
+| `long` / `long int`           | ✅ signed / unsigned | 큰 정수         |
+| `long long` / `long long int` | ✅ signed / unsigned | 더 큰 정수      |
 
 > 정수형의 기본 부호는 signed이며 `signed`는 생략 가능하다.
 
-#### 부호 없는 정수형 (Unsigned Integer Types)
+### 부호 없는 정수형 (Unsigned Integer Types)
 
 | 자료형 | 설명 |
 |--------|------|
@@ -53,7 +53,7 @@ C언어에서 대표적으로 자주 쓰이는 자료형은 앞서 소개했다.
 | `unsigned long long` | 매우 큰 부호 없는 정수 |
 
 
-#### 실수형 (Floating-Point Types)
+### 실수형 (Floating-Point Types)
 
 | 자료형 | 설명 |
 |--------|------|
@@ -62,7 +62,7 @@ C언어에서 대표적으로 자주 쓰이는 자료형은 앞서 소개했다.
 | `long double` | 매우 높인 정밀도의 부동소수점|
 
 
-### 암시적 형 변환 (Implicit Type Conversion)
+## 암시적 형 변환 (Implicit Type Conversion)
 
 암시적 형 변환이란, 자료형이 서로 다른 값끼리 연산을 할 때 C언어가 자동으로 형을 변환하는 것이다.  
 
@@ -93,7 +93,7 @@ float result = count + average;  // count는 자동으로 float으로 변환됨
 > 정확히 말하면 C언어 자체가 형을 바꾸는 게 아니라 컴파일러가 자동으로 형 변환을 수행한다.  
 > 하지만 지금은 "C언어가 바꿔준다"고 이해해도 괜찮다.
 
-### 명시적 형 변환 (Explicit Type Conversion)
+## 명시적 형 변환 (Explicit Type Conversion)
 
 명시적 형 변환은 프로그래머가 직접 자료형을 변환하도록 명령하는 것이다.  
 이 과정을 캐스팅(casting)이라고 한다.
@@ -109,7 +109,7 @@ int truncated = (int)pi;  // 소수점 이하 잘리고 3만 저장됨
 그렇기 때문에 명시적 형 변환은 쓸 때 항상 조심해야 한다.
 
 
-### 형 변환의 주의점
+## 형 변환의 주의점
 
 형 변환은 편리하지만 다음과 같은 점을 주의해야 한다.
 
