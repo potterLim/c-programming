@@ -5,12 +5,12 @@
 이때 사용하는 `%d`, `%f` 같은 기호를 서식자(format specifier)라고 한다.  
 서식자는 변수의 자료형에 맞게 선택해야 한다.
 
-| 자료형 | 서식자 | 예시 |
-|--------|--------|------|
-| `int` | `%d` | `printf("%d\n", a);` |
-| `float` | `%f` | `printf("%f\n", b);` |
-| `double` | `%lf` | `printf("%lf\n", pi);` |
-| `char` | `%c` | `printf("%c\n", ch);` |
+| 자료형   | 서식자 | 예시                   |
+| -------- | ------ | ---------------------- |
+| `int`    | `%d`   | `printf("%d\n", a);`   |
+| `float`  | `%f`   | `printf("%f\n", b);`   |
+| `double` | `%lf`  | `printf("%lf\n", pi);` |
+| `char`   | `%c`   | `printf("%c\n", ch);`  |
 
 실수형은 소수점 자리수를 지정할 수도 있다.
 
@@ -44,22 +44,22 @@ C언어에서 대표적으로 자주 쓰이는 자료형은 앞서 소개했다.
 
 ### 부호 없는 정수형 (Unsigned Integer Types)
 
-| 자료형 | 설명 |
-|--------|------|
-| `unsigned char` | 부호 없는 8비트 정수 |
-| `unsigned short` | 부호 없는 16비트 정수 |
-| `unsigned int` | 부호 없는 32비트 정수 |
-| `unsigned long` | 큰 부호 없는 정수 |
+| 자료형               | 설명                   |
+| -------------------- | ---------------------- |
+| `unsigned char`      | 부호 없는 8비트 정수   |
+| `unsigned short`     | 부호 없는 16비트 정수  |
+| `unsigned int`       | 부호 없는 32비트 정수  |
+| `unsigned long`      | 큰 부호 없는 정수      |
 | `unsigned long long` | 매우 큰 부호 없는 정수 |
 
 
 ### 실수형 (Floating-Point Types)
 
-| 자료형 | 설명 |
-|--------|------|
-| `float` | 낮은 정밀도의 부동소수점 |
-| `double` | 상대적으로 높은 정밀도의 부동소수점 |
-| `long double` | 매우 높인 정밀도의 부동소수점|
+| 자료형        | 설명                                |
+| ------------- | ----------------------------------- |
+| `float`       | 낮은 정밀도의 부동소수점            |
+| `double`      | 상대적으로 높은 정밀도의 부동소수점 |
+| `long double` | 매우 높은 정밀도의 부동소수점       |
 
 
 ## 암시적 형 변환 (Implicit Type Conversion)
