@@ -14,7 +14,7 @@ _K. N. King_ 저의 『C Programming: A Modern Approach』를 정독할 것을 �
 C 언어를 학습하고 실습 예제를 실행하려면 코드를 작성하고 컴파일할 수 있는 개발 환경이 필요합니다.  
 이 저장소에서는 Windows 사용자 기준으로 Visual Studio Code와 gcc를 이용한 개발 환경 설정을 권장합니다.
 
-설치 방법과 테스트 컴파일까지의 과정을 자세히 설명한 [개발 환경 구축 가이드(pdf)](./setup-guide/c_programming_setup_guide.pdf)를 통해  
+설치 방법과 테스트 컴파일까지의 과정을 자세히 설명한 [개발 환경 구축 가이드(pdf)](./setup-guide/c-programming-setup-guide-windows.pdf)를 통해  
 Visual Studio Code에서 `.c` 파일을 바로 작성하고 컴파일, 실행할 수 있는 환경을 손쉽게 구축할 수 있습니다.
 
 > macOS 또는 Linux 환경에서도 동일한 실습이 가능하며 해당 운영체제를 위한 개발 환경 구축 가이드는 추후 제공될 예정입니다.
@@ -82,4 +82,4 @@ Visual Studio Code에서 `.c` 파일을 바로 작성하고 컴파일, 실행할
 
 이 저장소를 통해 공부하시다가 내용, 실습, 설명 등에 대해 궁금한 점이 생기면 언제든지 potterLim0808@gmail.com 으로 문의 주시면 성실히 답변드리겠습니다.
 
-> 최종 수정일: 2025-07-07
+> 최종 수정일: 2025-08-12
